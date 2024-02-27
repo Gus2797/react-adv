@@ -17,9 +17,11 @@ export const ProductTitle = ({ title, className, style }: Props) => {
             className={ `${ styles.horizontalCenter } ${ className }` }
             style={ style }
         >
-            <span className={ styles.productDescription }>
-                { title ? title : product.title }
-            </span>
+            <div className={ styles.productDescription }>
+                <span>
+                    { title ? title : product.title }
+                </span>
+            </div>
         </div>
     )
 }
