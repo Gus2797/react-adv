@@ -40,7 +40,7 @@ export const FormikComponents = () => {
                 }
             >
 
-                { ( formik ) => (
+                { () => (
                         <Form>
                             <label htmlFor="firstName">First Name</label>
                             <Field type="text" name="firstName" placeholder="First Name"/>
